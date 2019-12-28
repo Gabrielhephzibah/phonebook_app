@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> My phonebook</title>
+	<link rel="stylesheet" type="text/css" href="myphone.css">
+</head>
+<body>
+	
+<div id="main">
+
+
+<div id="phonescreen">
+	<div id="top">
+		<div id="text">
+			<h3>My Phonebook</h3>
+		
+			
+			
+		</div>
+		<button id="btn">Add Contact</button>
+		<span style="float: right; margin-right:5px "><button id="btn4">My Contact</button></span>
+	</div>
+	<br>
+	     <div id="box">
+            <div id="top2">
+                       
+               <form>
+                   <input placeholder="Search my contact" type="text" name="name" onkeyup="sortContact(this.value)" id="search" />
+                    </form>
+                       
+                 
+            </div>
+
+            <ol class="mylist">
+           			<li class="list">
+                            <span class="name"></span> 
+                            <br>
+                            <span class="num"></span>
+                            <span class="hide"></span>
+          
+                             <button class="delbtn">del</button>  <button class="small btn-edit">edit</button><button class="small btn-del">del</button> 
+                           
+                        </li>
+            		<!-- mhhhhh
+            	</li>
+            	<li>
+            		hhggfgfhj
+            	</li>  -->
+            </ol>
+        </div>
+        <br><br>
+                
+<div id="form">
+		<form>
+		<br>
+		<input type="text" name="text" placeholder="name" id="full"><br>
+		<br>
+		<input type="text" name="text" placeholder="phone number" id="phone"><br>
+		<br>
+		<input type="email" name="email" placeholder="email address" id="address">
+		<br><br><br>
+		</form>
+
+		<div id="btn">
+			<button id="btn2">Save</button>
+		</div>
+	</div>
+	<br>
+	<br>
+	
+
+	<span  style="float: right; margin-right:5px;" class="add">10 Contacts</span></p>	
+
+	
+	</div>
+	</div>
+
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="myphone.js"></script>
+	
+	<script type="text/javascript">
+	function sortContact(x) {
+                // body...
+            }
+       </script>
+
+</body>
+</html>
